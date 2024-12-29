@@ -43,10 +43,10 @@ Any historian in the future will thus be able to use the timestamp information t
 
 Our automated timestamping procedure works conceptually as follows:
 
-- We select a collection of historical digital files to be timestamped. These files can be text, images, PDFs, database dumps, web pages, or any other digital content.
-- We use a secure hash algorithm (such as SHA-256) to produce a digest for each file.
-- We submit the digests to the OpenTimestamps service using an [opentimestamps client](https://www.npmjs.com/package/opentimestamps), saving the timestamp record file that is returned.
-- We publicly share the digests and timestamp records so that anyone in the future can verify that the files existed on today’s date.
+1. We select a collection of historical digital files to be timestamped. These files can be text, images, PDFs, database dumps, web pages, or any other digital content.
+2. We use a secure hash algorithm (such as SHA-256) to produce a digest for each file.
+3. We submit the digests to the OpenTimestamps service using an [opentimestamps client](https://www.npmjs.com/package/opentimestamps), saving the timestamp record file that is returned.
+4. We publicly share the digests and timestamp records so that anyone in the future can verify that the files existed on today’s date.
 
 ![Timestamping workflow](/assets/img/timestamping-flow.png)
 

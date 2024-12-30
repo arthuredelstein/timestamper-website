@@ -9,7 +9,7 @@ date:  2024-12-28 12:00:00 -0800
 
 <p style="text-align: right;">-- Winston Smith in <a href='https://gutenberg.net.au/ebooks01/0100021h.html'><i>1984</i></a> (George Orwell)</p>
 
-Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. By timestamping historical content as it exists in the mid 2020s, we hope to ensure that human generated content of the past can be clearly identified as such even after AI-generated content comes to dominate our culture.
+Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. By digitally timestamping historical content as it exists in the mid 2020s, we hope to ensure that human generated content of the past can be clearly identified as such even after AI-generated content comes to dominate our culture.
 
 To understand the threat that generative AI poses to the historical informational record, it is helpful to consider how the information economy has evolved since ancient times. The falling costs of generating, reproducing, and transmitting information over time have big implications for those who value our cultural and scientific heritage.
 
@@ -54,11 +54,12 @@ Generative AI is under rapid development today. In the past couple of years, we 
 
 The goal of our project is to undertake timestamping of a variety of historical data collections of high value density available on the web. So far, we have created a service that automatically time stamps the database dumps of Wikipedia and other Wikimedia Foundation sites, including Wiktionary, Wikibooks, Wikiquote, Wikinews, Wikispecies, Wikiversity and Wikivoyage. Twice a month, Wikimedia Foundation publishes new database dumps of the entire text of all language editions of Wikipedia and these other sites. The timestamper service digests these dumps, assembles them in a manifest for timestamping by opentimestamps.org. The resulting JSON manifests and timestamp record (OTS) files are available here. We have also timestamped all books from the Gutenberg Project.
 
-In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on The Pirate Bay, and all movies from the YTS movie torrents database. We didn't need to download these materials -- instead, digests are already availble for timestamping. (Note that in some jurisdictions, downloading copyrighted books and movies is illegal. However, in the future the copyright for these works of art will have expired and be available for download, so generating the timestamps now is very important.
+In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on The Pirate Bay, and all movies from the YTS movie torrents database. We didn't need to download these materials -- instead, digests are already availble for timestamping. (Note that in some jurisdictions, downloading copyrighted books and movies is illegal. However, in the future the copyright for these works of art will have expired and be available for download, so we are generating the timestamps now before generative AI has fully
+taken over the information space.)
 
-We have also timestamped all the articles in Scihub using existing digests. In the future we hope to timestamp, the genomes of humans and thousands of other organisms that have been sequenced, digitzed paintings, music, and other large collections.
+We have also timestamped all the articles in Scihub using existing digests. In the future we hope to timestamp more collections, including the genomes of humans and thousands of other organisms that have been sequenced, digitzed paintings, recorded music, etc.
 
-We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, Google Books, and Getty Images, to timestamp the content in their databases as well.
+We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, Google Books, and Getty Images, to regularly timestamp the content in their databases as well.
 
 In addition, we hope to make it easy to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations. We also want to make these timestamps easy for the public to find and verify.
 

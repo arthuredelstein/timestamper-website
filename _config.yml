@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://projecttimestamper.org"
 twitter_username: projtimestamper
-github_username:  arthuredelstein
+github_username:  projecttimestamper
 
 # Build settings
 theme: minima
